@@ -15,7 +15,7 @@ public class Odev3 {
 		int islem = input.nextInt();
 		
 		if (islem==1) {
-			System.out.println("Girilen sayıların toplammı: " + (1L*sayi1*sayi2));
+			System.out.println("Girilen sayıların toplamı: " + (1L*sayi1*sayi2));
 		}
 		else if (islem==2) {
 			System.out.println("Girilen sayıların farkı: " + (sayi1-sayi2));
