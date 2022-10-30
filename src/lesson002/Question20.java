@@ -17,7 +17,7 @@ public class Question20 {
 			}			
 		}		
 		
-		double oran= 1D * cifttoplam/tektoplam; // 2 int'in bölümünüü int kabul edeceği için başa 1D* ekledik
+		double oran= 1D * cifttoplam/tektoplam; // 2 int'in bölümünü int kabul edeceği için başa 1D* ekledik
 		System.out.println(oran);			
 	}
 }
