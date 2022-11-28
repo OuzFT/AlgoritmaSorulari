@@ -65,7 +65,7 @@ public class Main {
 		//metod kullanımı:
 		//1. kullanım:
 		int karesi;
-		karesi = Main.kareAl(5); //kareAl(5); diye de yazabiliriz. Neden main. yazdık, sınıf ismi: static method 
+		karesi = Main.kareAl(5); //kareAl(5); diye de yazabiliriz. Neden main. yazdık: sınıf ismi: static method 
 		System.out.println(karesi);
 		
 		//2. kullanım:	

@@ -24,9 +24,9 @@ public class MethodOverloading {
 	//...
 	
 	// Aşağıdaki kullanım doğrudur:(overloading yaparak)
-	public static void Save(Musteri musteri) {}
-	public static void Save(Stok stok) {}
-	public static void Save(Satis satis) {}
+	// public static void Save(Musteri musteri) {}
+	// public static void Save(Stok stok) {}
+	// public static void Save(Satis satis) {}
 	
 	
 	

@@ -1,5 +1,7 @@
 package com.alikayaornek;
 
+import com.oguzfurkantoprak.SinifStaticDegiskenler;
+
 public class YardimciSinif {
 	
 	public static void helloYardimci() {
@@ -20,6 +22,17 @@ public class YardimciSinif {
 		
 	}
 	
+	public static  int mesafe() {
+		
+		SinifStaticDegiskenler.x++;
+		int  mesafe = com.oguzfurkantoprak.SinifStaticDegiskenler.dunyaninYaricapi * com.oguzfurkantoprak.SinifStaticDegiskenler.x;
+		return mesafe;
+	}
 	
+	public static void kullaniciSayisiArtir() {
+		SinifStaticDegiskenler.aktifKullaniciSayisi++;
+		System.out.println(SinifStaticDegiskenler.aktifKullaniciSayisi++);
+		return;
+	}
 	
 }
